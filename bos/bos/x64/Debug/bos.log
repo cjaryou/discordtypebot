@@ -1,0 +1,17 @@
+﻿  main.cpp
+  Utils.cpp
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(6,22): warning C4244: '=': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(16,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(50,22): warning C4244: '=': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(51,22): warning C4244: '=': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(83,71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(84,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(113,10): error C2664: 'int _wcsicmp(const wchar_t *,const wchar_t *)': cannot convert argument 1 from 'CHAR [260]' to 'const wchar_t *'
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(113,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h(304,37): message : see declaration of '_wcsicmp'
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(113,10): message : while trying to match the argument list '(CHAR [260], const wchar_t *)'
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(134,10): error C2664: 'int _wcsicmp(const wchar_t *,const wchar_t *)': cannot convert argument 1 from 'char [256]' to 'const wchar_t *'
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(134,27): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h(304,37): message : see declaration of '_wcsicmp'
+C:\Users\numan\source\repos\bos\bos\Utils.cpp(134,10): message : while trying to match the argument list '(char [256], const wchar_t *)'
+  Generating Code...

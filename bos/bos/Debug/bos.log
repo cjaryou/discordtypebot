@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\numan\source\repos\bos\bos\main.cpp(19,23): warning C4018: '<': signed/unsigned mismatch
+  bos.vcxproj -> C:\Users\numan\source\repos\bos\Debug\bos.exe
